@@ -1,0 +1,62 @@
+.btn.btn {
+  padding: 18px 34px;
+  letter-spacing: .15em;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: "freight-sans-pro";
+  font-size: 12px;
+  max-width: 300px;
+  display: inline-block;
+
+  margin-top: 1.5em;
+
+  width: auto;
+
+  transition: width .2s;
+
+  // not in styleguide
+  color: white;
+  text-decoration: none;
+  border-radius: 3px;
+
+  // not in styleguide, default
+  background-color: #01C7C8;
+
+  &--muted {
+    background-color: #eee;
+    color: #777;
+  }
+
+  &--stroke {
+    background-color: transparent;
+    border: 2px solid white;
+  }
+
+  &--centered {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  &--block {
+    display: block;
+  }
+
+  &-container {
+
+    margin-left: auto;
+    margin-right: auto;
+
+    &--narrow {
+      width: 80%;
+    }
+
+    .btn + .btn {
+      margin-top: 10px;
+    }
+  }
+
+  .loading {
+    margin-right: 1em;
+  }
+}

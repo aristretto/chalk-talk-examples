@@ -1,0 +1,4 @@
+{exec} = require 'child_process'
+
+task "compile", "compile grunt tasks written in coffeescript located in tasks/coffee to tasks/js", ->
+  exec 'coffee -b -o tasks/js/ -c tasks/coffee/*.coffee'

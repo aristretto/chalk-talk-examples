@@ -1,0 +1,22 @@
+{
+  "name": "chalk-talk-1",
+  "version": "0.1.0",
+  "authors": [
+    "Albert <albert+github@counsyl.com>"
+  ],
+  "description": "example 1",
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "handlebars": "components/handlebars.js#~3.0.0",
+    "Masq": "git@github.counsyl.com:albert/Masq#chalk-talk",
+    "ui_components": "git@github.counsyl.com:dev/ui_components.git#0.8.23"
+  }
+}

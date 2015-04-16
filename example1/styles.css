@@ -1,0 +1,224 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/albert\/counsyl\/chalk-talk\/example1\/sass\/styles\.scss}line{font-family:\000031}}
+* {
+  box-sizing: border-box;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/albert\/counsyl\/chalk-talk\/example1\/sass\/styles\.scss}line{font-family:\000035}}
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/albert\/counsyl\/chalk-talk\/example1\/sass\/styles\.scss}line{font-family:\0000310}}
+html {
+  background-color: #fafafa;
+  line-height: 1.7;
+  font-size: 14px;
+  font-family: sans-serif;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/albert\/counsyl\/chalk-talk\/example1\/sass\/styles\.scss}line{font-family:\0000317}}
+h1, h2, h3, h4, h5, h6 {
+  color: #333;
+  margin-top: 1em;
+  margin-bottom: .8em;
+  font-family: "adelle", sans-serif;
+  font-weight: 500;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/albert\/counsyl\/chalk-talk\/example1\/sass\/styles\.scss}line{font-family:\0000325}}
+.header {
+  border-top: 4px solid #dcdcdc;
+  background-color: #efefef;
+  margin-left: -40px;
+  margin-top: -40px;
+  margin-right: -40px;
+  text-align: center;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/albert\/counsyl\/chalk-talk\/example1\/sass\/styles\.scss}line{font-family:\0000334}}
+.title {
+  margin: 0;
+  padding-top: 1.3em;
+  padding-bottom: 1.3em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/albert\/counsyl\/chalk-talk\/example1\/sass\/styles\.scss}line{font-family:\0000340}}
+.container {
+  max-width: 800px;
+  margin: 60px auto;
+  padding: 40px;
+  background-color: white;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width: 800px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/albert\/counsyl\/chalk-talk\/example1\/sass\/styles\.scss}line{font-family:\0000349}}
+  .container {
+    margin-top: 0;
+    padding: 30px;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/albert\/counsyl\/chalk-talk\/example1\/sass\/styles\.scss}line{font-family:\0000354}}
+  .header {
+    margin-bottom: 30px;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/albert\/counsyl\/chalk-talk\/example1\/sass\/_component-base\.scss}line{font-family:\000031}}
+[data-masq] {
+  visibility: hidden;
+  opacity: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/albert\/counsyl\/chalk-talk\/example1\/sass\/_component-base\.scss}line{font-family:\000036}}
+[data-masqed] {
+  -webkit-animation: fadein .18s;
+  /* Safari, Chrome and Opera > 12.1 */
+  /* Firefox < 16 */
+  /* Internet Explorer */
+  /* Opera < 12.1 */
+  animation: fadein .18s;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/* Firefox < 16 */
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/* Internet Explorer */
+/* Opera < 12.1 */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/albert\/counsyl\/chalk-talk\/example1\/sass\/_media-object\.scss}line{font-family:\000031}}
+.media-object {
+  border: 2px solid #efefef;
+  background-color: #fafafa;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  padding: 20px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/albert\/counsyl\/chalk-talk\/example1\/sass\/_media-object\.scss}line{font-family:\0000313}}
+.media-object a {
+  display: block;
+  margin-right: 1em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/albert\/counsyl\/chalk-talk\/example1\/sass\/_media-object\.scss}line{font-family:\0000318}}
+.media-object__figure {
+  max-width: 120px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/albert\/counsyl\/chalk-talk\/example1\/sass\/_media-object\.scss}line{font-family:\0000322}}
+.media-object__body {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/albert\/counsyl\/chalk-talk\/example1\/sass\/_media-object\.scss}line{font-family:\0000326}}
+.media-object h1 {
+  margin-top: 0;
+  line-height: 1;
+  font-size: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/albert\/counsyl\/chalk-talk\/example1\/sass\/_media-object\.scss}line{font-family:\0000332}}
+.media-object p {
+  margin-bottom: 0;
+  margin-top: 1em;
+}
+
+@media screen and (max-width: 600px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/albert\/counsyl\/chalk-talk\/example1\/sass\/_media-object\.scss}line{font-family:\0000339}}
+  .media-object {
+    display: block;
+    text-align: center;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/albert\/counsyl\/chalk-talk\/example1\/sass\/_media-object\.scss}line{font-family:\0000343}}
+  .media-object__figure {
+    margin-bottom: 20px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/albert\/counsyl\/chalk-talk\/example1\/sass\/_media-object\.scss}line{font-family:\0000347}}
+  .media-object__body {
+    -webkit-box-flex: 0;
+    -webkit-flex: none;
+        -ms-flex: none;
+            flex: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/albert\/counsyl\/chalk-talk\/example1\/sass\/_media-object\.scss}line{font-family:\0000351}}
+  .media-object p {
+    text-align: left;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/albert\/counsyl\/chalk-talk\/example1\/sass\/_button\.scss}line{font-family:\000031}}
+.btn.btn {
+  padding: 18px 34px;
+  letter-spacing: .15em;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: "freight-sans-pro";
+  font-size: 12px;
+  max-width: 300px;
+  display: inline-block;
+  margin-top: 1.5em;
+  width: auto;
+  -webkit-transition: width .2s;
+          transition: width .2s;
+  color: white;
+  text-decoration: none;
+  border-radius: 3px;
+  background-color: #01C7C8;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/albert\/counsyl\/chalk-talk\/example1\/sass\/_button\.scss}line{font-family:\0000325}}
+.btn.btn--muted {
+  background-color: #eee;
+  color: #777;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/albert\/counsyl\/chalk-talk\/example1\/sass\/_button\.scss}line{font-family:\0000330}}
+.btn.btn--stroke {
+  background-color: transparent;
+  border: 2px solid white;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/albert\/counsyl\/chalk-talk\/example1\/sass\/_button\.scss}line{font-family:\0000335}}
+.btn.btn--centered {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/albert\/counsyl\/chalk-talk\/example1\/sass\/_button\.scss}line{font-family:\0000341}}
+.btn.btn--block {
+  display: block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/albert\/counsyl\/chalk-talk\/example1\/sass\/_button\.scss}line{font-family:\0000345}}
+.btn.btn-container {
+  margin-left: auto;
+  margin-right: auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/albert\/counsyl\/chalk-talk\/example1\/sass\/_button\.scss}line{font-family:\0000350}}
+.btn.btn-container--narrow {
+  width: 80%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/albert\/counsyl\/chalk-talk\/example1\/sass\/_button\.scss}line{font-family:\0000354}}
+.btn.btn-container .btn + .btn {
+  margin-top: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/albert\/counsyl\/chalk-talk\/example1\/sass\/_button\.scss}line{font-family:\0000359}}
+.btn.btn .loading {
+  margin-right: 1em;
+}

@@ -1,0 +1,11 @@
+.local-template {
+  padding: 20px;
+  background-color: rgba(salmon, .1);
+  border: 1px solid rgba(salmon, .33);
+  text-align: center;
+
+  .btn--warning {
+    text-align: center;
+    margin: 0;
+  }
+}
